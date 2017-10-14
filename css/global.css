@@ -67,7 +67,12 @@ header{
 		}
 			nav li a{
 				font-size: 	18px;
+				font-family: Microsoft YaHei;
+				color: black;
 				line-height: 30px;
+			}
+			nav li a:hover{
+				color:black;
 			}
 
 /*      index article        */
@@ -77,3 +82,7 @@ article#indexArticle{
 	margin:0 auto;
 	padding-top:30px;
 }
+	#indexArticle #myCarousel{
+		height: 550px;
+		overflow: hidden;
+	}
